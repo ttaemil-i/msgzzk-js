@@ -1,10 +1,10 @@
 import axios from 'axios';
 import { EventEmitter } from 'events';
 import WebSocket from 'ws';
-import type { ChatMessage, MsgzzkClientEvents } from './types';
+import type { ChatMessage, MsgzzkClientEvents } from './types.js';
 import * as fs from 'fs';
 import * as path from 'path';
-import DEFAULT_CONFIG from './config.default';
+import DEFAULT_CONFIG from './config.default.js';
 
 type Config = typeof DEFAULT_CONFIG;
 
