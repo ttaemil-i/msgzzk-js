@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { EventEmitter } from 'events';
 import WebSocket from 'ws';
-import { ChatMessage, MsgzzkClientEvents } from './types';
+import type { ChatMessage, MsgzzkClientEvents } from './types';
 import * as fs from 'fs';
 import * as path from 'path';
 import DEFAULT_CONFIG from './config.default';
