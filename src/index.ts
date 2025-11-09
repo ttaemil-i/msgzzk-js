@@ -1,4 +1,4 @@
-import { MsgzzkClient } from './MsgzzkClient';
+import { MsgzzkClient } from './MsgzzkClient.js';
 
 export { MsgzzkClient };
-export * from './types';
+export * from './types.js';
