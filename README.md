@@ -126,7 +126,8 @@ client.connect();
 
 ### TYPESCRIPT
 ```typescript
-import { MsgzzkClient, ChatMessage, SubscriptionExtras } from 'msgzzk';
+import { MsgzzkClient } from 'msgzzk';
+import type { ChatMessage, SubscriptionExtras } from 'msgzzk';
 
 // https://chzzk.naver.com/live/${CHANNEL_ID}
 // USE CHANNEL ID FROM CHZZK CHANNEL URL
