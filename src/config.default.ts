@@ -11,7 +11,6 @@ const DEFAULT_CONFIG = {
         }
     },
     websocket: {
-        url: 'wss://kr-ss4.chat.naver.com/chat',
         commands: {
             auth: 100,
             authResponse: 10100,
