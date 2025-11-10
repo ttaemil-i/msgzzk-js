@@ -187,7 +187,6 @@ If the configuration file at the specified path doesn’t exist, default values 
     }
   },
   "websocket": {
-    "url": "wss://kr-ss4.chat.naver.com/chat",
     "commands": {
       "auth": 100,
       "authResponse": 10100,
