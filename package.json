@@ -1,6 +1,6 @@
 {
   "name": "msgzzk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "unofficial node.js client for receiving live chat messages only from naver chzzk.",
   "keywords": [
     "chzzk",
